@@ -1,0 +1,16 @@
+.Timer {
+    display: inline-flex;
+    margin-left: 825px;
+    font-size: 48px;
+}
+.Conclusion_Time {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Conclusion_Time:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+}
